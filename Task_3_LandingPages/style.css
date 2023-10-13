@@ -1,0 +1,242 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: black;
+    color:white;
+    font-family:"poppins",sans-serif;
+  }
+  .navbar{
+    position: absolute;
+    top:0%;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index:10;
+  }
+  
+  .navbar_netflix{
+    width:125px;
+    /* width:70px; */
+    height:100%;
+  }
+  
+  .navbar_nav_items{
+    display:flex;
+    gap:10px;
+  }
+  .netflix_logo{
+    width:100%;
+    height:100%;
+    background-color:black;
+  }
+  #language_drop_down{
+    background : transparent ;
+    border:none;
+    color:white;
+  }
+  .dropdown_container{
+    border:1px solid white;
+    /* padding: 0.1rem; */
+    padding:0.4rem;
+    border-radius:4px;
+    background:rgba(0,0,0,0.4);
+    
+  }
+  
+  .signin_button{
+    border:#dc030f;
+    background-color: #dc030f;
+    color: white;
+   padding:o.25rem 0.5rem;
+    /* padding:0.15rem 0.2rem; */
+    border-radius:4px;
+    height:35px;
+    /* height: 20px; */
+    width:100px;
+  }
+  .hero_bg_image_container{
+    width:100%;
+    height:100%;
+  }
+  .hero_bg_image{
+    width:100%;
+  height:100%;
+  object-fit: cover;
+  
+  }
+  .hero_bg_overlay{
+    position: absolute ;
+    inset:0;
+    background-color: rgba(0,0,0,0,4);
+    width:100%;
+    height:100%;
+  }
+  .hero_card{
+    position: absolute ;
+    
+    top:30%;
+    left:15%;
+    
+    /* top:7%;
+    left:0%; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  .hero_title{
+    font-weight: 600;
+    font-size:2rem;
+  }
+  .hero_subtitle{
+    font-weight: 400;
+    font-size:1rem;
+  }
+  .hero-description{
+    font-weight: 400;
+    font-size:1.5rem;
+    margin-inline:10px 10px;
+  }
+  .email{
+   
+    width:450px;
+    height:60px;
+    
+    /* width:100px;
+    height:20px; */
+    color:white;
+    padding:0.25rem 0.5rem;
+    border-radius:3px;
+    border-color:white;
+  }
+  .get_started{
+    font-size:1.5rem;
+    height:55px;
+      width:240px;
+     text-align: center; 
+   
+   /* height:20px;
+   width:70px; */
+   background-color:transparent;
+   border:1px solid gray;
+   color:white;
+   border-radius: 10px;
+  }
+  
+  .card-1,card-2,card-3{
+ 
+    border-top:8px rgb(69,69,66);
+    padding:50px; 
+   
+    /* border-top:2px solid rgb(69,69,66);
+    padding:23px; */
+  }
+  
+  .card-1{
+    position:relative;
+    display :inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding:25px 45px 50px;
+    /* padding: 10px 25px 30px; */
+  }
+  .desc-1{
+    padding-left:80px;
+    /* padding-left:30px; */
+  }
+  .card-1 video{
+    position :relative;
+    top:-7px;
+    width:100%;
+    height:100%;
+    grid-column: 2/2;
+    grid-row:1/2;
+    z-index:1;
+  }
+  
+  .card-1 img{
+    width:100%;
+    height:100%;
+    grid-column: 2/2;
+    grid-row:1/2;
+  }
+  
+  .style-cards h1{
+    /*font-size:3rem;
+    padding:1rem;
+    */
+    font-size:2rem;
+    padding:2rem;
+    padding-left: 0;
+  }
+  .style-cards h3{
+    font-size:1rem;
+    line-height:1rem;
+  }
+  .card-2{
+    display:flex;
+  }
+  .desc-2 h1,h3{
+    color: white;
+    z-index:-1;
+  }
+  .card-2 img{
+    width: 100%;
+    height: 100%
+  }
+  .desc-2{
+    width:100%;
+  }
+  .card-3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    /* padding:10px 25px 35px; */
+    padding:25px 45px 50px;
+    border-bottom:2px solid rgb(69,69,66);
+  }
+  .desc-3{
+    padding-left: 40px;
+  }
+  .card-3 video{
+    position:relative;
+    top:-55px;
+    right: -55px;
+    width: 80%;
+    height: 46%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: 1;
+  }
+  .card-3 img{
+    width:120%;
+    height:100%;
+    grid-column: 2/2;
+    grid-row:1/2;
+  }
+  .footer,
+  .footer a{
+    color:#999;
+    font-size: 1.3rem;
+  }
+  .footer p{
+    margin-bottom: 1.2rem;
+  }
+  
+  
+  .footer .footer-cols{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+    padding-left:30px;
+  }
+  .footer li{
+   line-height: 1.9; 
+  }
